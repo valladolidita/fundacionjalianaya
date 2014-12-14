@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Globals */
+html {
+	background: url("images/background.jpg") repeat;
+}
+
+img {
+	border: 1px solid transparent;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 68.72em;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto;
+}
+
+/* Header */
+.logo-mainnav-group {
+	text-transform: uppercase;
+}
+.logo {
+	padding: 0;
+}
+
+/* Header main-nav */
+.main-nav {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+    padding-left: 4em;
+    padding-top: 0;
+    list-style-type: none;
+    font-weight: 400;
+    text-align: center;
+    height: 5em;
+  }
+.main-nav li {
+	float: left;
+    margin: 1em;
+    padding: 0;
+    border-bottom: 0.1em solid transparent;
+    height: 12px;
+}
+.main-nav a {
+    color: black;
+    text-decoration: none;
+  }
+.main-nav a:hover {
+	border-bottom: 2px solid #deb20d;
+}
+/* Page Mainsection */
+.main-section {
+	clear: both;
+	position: relative;
+}
+
+/* article-group, under Page Mainsection */
+.article-group {
+	position: absolute;
+	padding: 8em 0 0 7.5em;
+	letter-spacing: .5px;
+}
+.article-group h2 {
+	color: #deb20d;
+	font-size: 32px;
+	line-height: 34px;
+	font-weight: thin;
+}
+.article-group h3 {
+	color: white;
+	font-size: 32px;
+	line-height: 34px;
+	font-weight: thin;
+  margin-bottom: 10px;
+}
+.article-group a {
+	color: #deb20d;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: thin;
+	text-decoration: none;
+}
+.zindex-image {
+	position: relative;
+	z-index: -10;
+}
+/* Page Footer */
+.footer-group {
+	letter-spacing: .5px;
+	clear: both;
+	height: 8em;
+	text-transform: uppercase;
+}
+
+/* Footer-Nav */
+.footer-nav {
+    float: left;
+    margin: 0;
+    padding: 1em 8em;
+    font-size: 13px;
+}
+.footer-nav ul {
+	margin:  0;
+	padding: 0;
+}
+.footer-nav li {
+	float: left;
+	margin:  0;
+	padding: 0 2em 0 0;
+}
+.footer-nav a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Social-media */
+.social-media {
+	text-transform: uppercase;
+  float: right;
+  margin: 0 5em 0 0;
+  padding: 0;
+  font-size: 20px;
+}
+.social-media ul {
+	padding: 0;
+}
+.social-media li {
+	float: right;
+	margin: 0em;
+	padding: 0 1em 0 0;
+}
+.social-media a {
+	color: black;
+	text-decoration: none;
+}
