@@ -24,6 +24,7 @@ ul {
 
 body {
 	font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 24px;
 	max-width: 68.72em;
 	margin: 0 auto;
@@ -76,7 +77,6 @@ body {
 	position: absolute;
 	padding: 8em 0 0 7.5em;
 	letter-spacing: .5px;
-  font-weight: 400;
 }
 .article-group h2 {
 	color: #deb20d;
