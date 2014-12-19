@@ -32,6 +32,7 @@ body {
 	overflow: auto;
 }
 
+
 /* Header */
 .logo-mainnav-group {
 	text-transform: uppercase;
@@ -99,6 +100,33 @@ body {
 	position: relative;
 	z-index: -10;
 }
+
+/* lowerlevelpage-group, under Page Mainsection */
+.lowerlevelpage-group {
+  position: absolute;
+  padding: 5em 0 0 7.5em;
+  letter-spacing: .7px;
+}
+.lowerlevelpage-group h2 {
+  color: #4763a3;
+  font-size: 32px;
+  line-height: 34px;
+  margin-bottom: 0px;
+}
+.lowerlevelpage-group h3 {
+  color: black;
+  font-size: 15px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+.lowerlevelpage-group p {
+  color: black;
+  font-size: 15px;
+  line-height: 17px;
+  margin-bottom: 10px;
+  padding-right: 34em;
+}
+
 /* Page Footer */
 .footer-group {
 	letter-spacing: .5px;
